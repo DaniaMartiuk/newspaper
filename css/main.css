@@ -1,3 +1,8 @@
+@font-face {
+  font-family: OstrichSans;
+  src: url("../fonts/OstrichSans-Bold.otf");
+}
+
 body {
   background-image: url(../images/bg.jpg);
 }
@@ -5,5 +10,5 @@ body {
 #p {
   text-align: center;
   color: white;
-  src: url(fonts/OstrichSans-Bold.otf);
+  font-family: OstrichSans;
 }
