@@ -3,6 +3,11 @@
   src: url("../fonts/OstrichSans-Bold.otf");
 }
 
+@font-face {
+  src: url("../fonts/Chunkfive-webfont.woff");
+  font-family: Chunkfive;
+}
+
 body {
   background-image: url(../images/bg.jpg);
 }
@@ -11,4 +16,18 @@ body {
   text-align: center;
   color: white;
   font-family: OstrichSans;
+  font-size: 3.2em;
 }
+
+#p2 {
+  color: white;
+  text-align: center;
+  height: -36px;
+  font-family: Chunkfive;
+}
+
+hr {
+  border: none;
+  color: red;
+  background-color: red;
+  height: 2px;
