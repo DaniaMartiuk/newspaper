@@ -19,6 +19,8 @@ body {
   font-size: 3.2em;
   text-align: center;
   font-size: 60px;
+  vertical-align: middle;
+  margin: 20px 0;
 }
 
 #sub_topic {
@@ -28,6 +30,7 @@ body {
   height: -36px;
   text-align: center;
   font-size: 15px;
+  margin: 15px 0;
 }
 
 hr {
