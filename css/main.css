@@ -40,24 +40,66 @@ hr {
   height: 2px;
 }
 
-#div1 {}
+#div {
+  text-align: center;
+}
 
 #div1 {
   color: white;
-  text-align: right;
+  /* Цвет фона */
+  width: 150px;
+  /* Ширина */
+  margin: 0 10px 10px 0;
+  /* Отступы */
+  padding: 10px 0;
+  /* Поля сверху и снизу */
+  text-align: center;
+  /* Выравнивание по центру */
+  display: inline-block;
+  /* Строчно-блочный элемент */
 }
 
 #div2 {
   color: white;
-  text-align: right;
+  /* Цвет фона */
+  width: 150px;
+  /* Ширина */
+  margin: 0 10px 10px 0;
+  /* Отступы */
+  padding: 10px 0;
+  /* Поля сверху и снизу */
+  text-align: center;
+  /* Выравнивание по центру */
+  display: inline-block;
+  /* Строчно-блочный элемент */
 }
 
 #div3 {
   color: white;
-  text-align: left;
+  /* Цвет фона */
+  width: 150px;
+  /* Ширина */
+  margin: 0 10px 10px 0;
+  /* Отступы */
+  padding: 10px 0;
+  /* Поля сверху и снизу */
+  text-align: center;
+  /* Выравнивание по центру */
+  display: inline-block;
+  /* Строчно-блочный элемент */
 }
 
 #div4 {
   color: white;
-  text-align: left;
+  /* Цвет фона */
+  width: 150px;
+  /* Ширина */
+  margin: 0 2px 2px 0;
+  /* Отступы */
+  padding: 10px 0;
+  /* Поля сверху и снизу */
+  text-align: right;
+  /* Выравнивание по центру */
+  display: inline-block;
+  /* Строчно-блочный элемент */
 }
