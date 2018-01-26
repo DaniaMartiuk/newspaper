@@ -42,19 +42,16 @@ hr {
 
 #div {
   text-align: center;
-  border: 3px dotted white;
-  border-radius: 15%;
-  height: 140px;
+  border: 3px dotted antiquewhite;
   background: black;
-  margin-left: 15%;
-  margin-right: 15%;
-  padding: 0%;
+  border-radius: 5%;
+  height: 20%;
 }
 
 #div1 {
   color: white;
   /* Цвет фона */
-  width: 150px;
+  width: 17%;
   /* Ширина */
   margin: 0 10px 10px 0;
   /* Отступы */
@@ -64,13 +61,13 @@ hr {
   /* Выравнивание по центру */
   display: inline-block;
   /* Строчно-блочный элемент */
-  border-right: 2px solid white;
+  border-right: 1px solid white;
 }
 
 #div2 {
   color: white;
   /* Цвет фона */
-  width: 150px;
+  width: 220px;
   /* Ширина */
   margin: 0 10px 10px 0;
   /* Отступы */
@@ -80,13 +77,15 @@ hr {
   /* Выравнивание по центру */
   display: inline-block;
   /* Строчно-блочный элемент */
-  border-right: 2px solid white;
+  border-right: 1px solid white;
+  padding-right: 20px;
+  ;
 }
 
 #div3 {
   color: white;
   /* Цвет фона */
-  width: 150px;
+  width: 250px;
   /* Ширина */
   margin: 0 10px 10px 0;
   /* Отступы */
@@ -96,15 +95,88 @@ hr {
   /* Выравнивание по центру */
   display: inline-block;
   /* Строчно-блочный элемент */
-  border-right: 2px solid white;
+  border-right: 1px solid white;
 }
 
 #div4 {
+  color: antiquewhite;
+  text-align: center;
   color: white;
   /* Цвет фона */
-  width: 150px;
+  width: 15%;
   /* Ширина */
-  margin: 0 2px 2px 0;
+  margin: 0 10px 10px 0;
+  /* Отступы */
+  padding: 10px 0;
+  /* Поля сверху и снизу */
+  text-align: center;
+  /* Выравнивание по центру */
+  display: inline-block;
+  /* Строчно-блочный элемент */
+}
+
+.span {
+  background: red;
+}
+
+.p2 {
+  text-align: center;
+  color: white
+}
+
+.p3 {
+  color: white;
+}
+
+img {
+  border: 3px solid grey;
+}
+
+#div5 {
+  color: antiquewhite;
+  text-align: center;
+  color: white;
+  /* Цвет фона */
+  width: 250px;
+  /* Ширина */
+  margin: 0 10px 10px 0;
+  /* Отступы */
+  padding: 10px 0;
+  /* Поля сверху и снизу */
+  text-align: left;
+  /* Выравнивание по центру */
+  display: inline-block;
+  /* Строчно-блочный элемент */
+  margin: 0 auto%;
+  margin-right: 100px
+}
+
+#div6 {
+  color: antiquewhite;
+  text-align: center;
+  color: white;
+  /* Цвет фона */
+  width: 250px;
+  /* Ширина */
+  margin: 0 10px 10px 0;
+  /* Отступы */
+  padding: 10px 0;
+  /* Поля сверху и снизу */
+  text-align: center;
+  /* Выравнивание по центру */
+  display: inline-block;
+  /* Строчно-блочный элемент */
+  margin: 1%;
+}
+
+#div7 {
+  color: antiquewhite;
+  text-align: center;
+  color: white;
+  /* Цвет фона */
+  width: 250px;
+  /* Ширина */
+  margin: 0 10px 10px 0;
   /* Отступы */
   padding: 10px 0;
   /* Поля сверху и снизу */
@@ -112,18 +184,5 @@ hr {
   /* Выравнивание по центру */
   display: inline-block;
   /* Строчно-блочный элемент */
-  padding-right: 15px;
-}
-
-.span {
-  background: red;
-}
-
-#p2 {
-  text-align: center;
-  color: white
-}
-
-#p3 {
-  color: white;
+  margin: 3%;
 }
