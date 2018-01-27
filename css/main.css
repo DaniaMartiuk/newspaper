@@ -44,7 +44,7 @@ hr {
   text-align: center;
   border: 3px dotted antiquewhite;
   background: black;
-  border-radius: 5%;
+  border-radius: 15px;
   height: 20%;
 }
 
@@ -103,7 +103,7 @@ hr {
   text-align: center;
   color: white;
   /* Цвет фона */
-  width: 15%;
+  width: 550px;
   /* Ширина */
   margin: 0 10px 10px 0;
   /* Отступы */
@@ -137,7 +137,7 @@ img {
   text-align: center;
   color: white;
   /* Цвет фона */
-  width: 250px;
+  width: 350px;
   /* Ширина */
   margin: 0 10px 10px 0;
   /* Отступы */
@@ -147,8 +147,12 @@ img {
   /* Выравнивание по центру */
   display: inline-block;
   /* Строчно-блочный элемент */
-  margin: 0 auto%;
-  margin-right: 100px
+  margin: 0 auto;
+  margin-right: 100px;
+  vertical-align: top;
+  border-right: 1px solid red;
+  padding-right: 35px;
+  padding-left: 35px;
 }
 
 #div6 {
@@ -156,17 +160,21 @@ img {
   text-align: center;
   color: white;
   /* Цвет фона */
-  width: 250px;
+  width: 300px;
   /* Ширина */
   margin: 0 10px 10px 0;
   /* Отступы */
   padding: 10px 0;
   /* Поля сверху и снизу */
-  text-align: center;
+  text-align: left;
   /* Выравнивание по центру */
   display: inline-block;
   /* Строчно-блочный элемент */
   margin: 1%;
+  padding-left: 0px;
+  border-right: 1px solid red;
+  padding-right: 35px;
+  ;
 }
 
 #div7 {
@@ -174,7 +182,7 @@ img {
   text-align: center;
   color: white;
   /* Цвет фона */
-  width: 250px;
+  width: 230px;
   /* Ширина */
   margin: 0 10px 10px 0;
   /* Отступы */
@@ -184,5 +192,20 @@ img {
   /* Выравнивание по центру */
   display: inline-block;
   /* Строчно-блочный элемент */
-  margin: 3%;
+  vertical-align: top;
+  padding-left: 13%;
+}
+
+.silk {
+  cursor: pointer;
+  color: grey;
+  text-decoration: none;
+}
+
+.img1 {
+  width: 350px;
+}
+
+.img2 {
+  width: 300px;
 }
