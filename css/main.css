@@ -103,7 +103,7 @@ hr {
   text-align: center;
   color: white;
   /* Цвет фона */
-  width: 550px;
+  width: 250px;
   /* Ширина */
   margin: 0 10px 10px 0;
   /* Отступы */
@@ -174,7 +174,6 @@ img {
   padding-left: 0px;
   border-right: 1px solid red;
   padding-right: 35px;
-  ;
 }
 
 #div7 {
@@ -182,18 +181,18 @@ img {
   text-align: center;
   color: white;
   /* Цвет фона */
-  width: 230px;
+  width: 270px;
   /* Ширина */
   margin: 0 10px 10px 0;
   /* Отступы */
   padding: 10px 0;
   /* Поля сверху и снизу */
-  text-align: right;
+  text-align: left;
   /* Выравнивание по центру */
   display: inline-block;
   /* Строчно-блочный элемент */
   vertical-align: top;
-  padding-left: 13%;
+  padding-left: 10%;
 }
 
 .silk {
@@ -207,5 +206,47 @@ img {
 }
 
 .img2 {
-  width: 300px;
+  width: 250px;
+  height: 200px;
+}
+
+#bar {
+  color: white;
+  float: left;
+  border: 2px dotted white;
+  background-color: black;
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.class3 {
+  float: left;
+}
+
+#barselonafm {
+  float: right;
+}
+
+#sportfm {
+  text-align: center;
+  font-size: 30px;
+}
+
+#sportfm2 {
+  color: white;
+  font-family: Chunkfive;
+}
+
+#sportfm3 {
+  color: red;
+  font-family: Chunkfive;
+}
+
+#footer {
+  border: none;
+}
+
+#text_footer {
+  color: red;
 }
