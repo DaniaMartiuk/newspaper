@@ -195,7 +195,7 @@ img {
   padding-left: 10%;
 }
 
-.silk {
+  {
   cursor: pointer;
   color: grey;
   text-decoration: none;
@@ -248,5 +248,14 @@ img {
 }
 
 #text_footer {
+  width: 300px;
+}
+
+#text_for_footer {
   color: red;
+}
+
+.silk {
+  color: grey;
+  text-decoration: none;
 }
