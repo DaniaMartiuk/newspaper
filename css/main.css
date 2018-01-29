@@ -243,14 +243,6 @@ img {
   font-family: Chunkfive;
 }
 
-#footer {
-  border: none;
-}
-
-#text_footer {
-  width: 300px;
-}
-
 #text_for_footer {
   color: red;
 }
@@ -258,4 +250,9 @@ img {
 .silk {
   color: grey;
   text-decoration: none;
+}
+
+#text_foter {
+  border: none;
+  width: 300px;
 }
