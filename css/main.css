@@ -243,16 +243,16 @@ img {
   font-family: Chunkfive;
 }
 
-#text_for_footer {
-  color: red;
-}
-
 .silk {
   color: grey;
   text-decoration: none;
 }
 
 #text_foter {
+  color: red;
   border: none;
-  width: 300px;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
 }
