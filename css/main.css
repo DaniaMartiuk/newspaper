@@ -251,8 +251,17 @@ img {
 #text_foter {
   color: red;
   border: none;
+  position: relative;
+}
+
+#text_foter2 {
+  color: red;
+  border: none;
   padding: 5px;
   text-align: center;
   font-weight: bold;
   font-size: 50px;
+  text-align: center;
+  margin: 0 0 0 50%;
+  position: relative;
 }
