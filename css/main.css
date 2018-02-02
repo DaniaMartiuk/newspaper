@@ -258,7 +258,7 @@ img {
   font-size: 50px;
   color: red;
   position: absolute;
-  top: 335%;
+  top: 350%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: Chunkfive;
@@ -273,6 +273,7 @@ img {
 
 .icon.icon-car {
   background-position: 0 0;
+  background-image: url(images\social.jpg);
 }
 
 .icon.icon-car:hover {
