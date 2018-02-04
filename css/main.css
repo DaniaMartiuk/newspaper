@@ -258,7 +258,7 @@ img {
   font-size: 50px;
   color: red;
   position: absolute;
-  top: 350%;
+  top: 345%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: Chunkfive;
@@ -271,43 +271,56 @@ img {
   padding-left: none;
 }
 
+.icon {
+  display: inline-block;
+  height: 45px;
+  width: 50px;
+  border: 1px solid antiquewhite;
+  border-radius: 15%;
+  background: url("../images/social.jpg");
+}
+
 .icon.icon-car {
-  background-position: 0 0;
-  background-image: url(images\social.jpg);
+  border: grey 3px solid;
+  background-position: 0 45px;
 }
 
 .icon.icon-car:hover {
-  background-position: 0px -154px;
+  background-position: 0 0;
 }
 
 .icon.icon-check {
-  background-position: 77px 0;
+  border: grey 3px solid;
+  background-position: 340px 45px;
 }
 
 .icon.icon-check:hover {
-  background-position: 77px -154px;
+  background-position: 340px 0;
 }
 
 .icon.icon-cart {
-  background-position: 25% 0px;
+  border: grey 3px solid;
+  background-position: 290px 45px;
 }
 
 .icon.icon-cart:hover {
-  background-position: 25% 66%;
+  background-position: 290px 0;
 }
 
 .icon.icon-comments {
-  background-position: 155px 0;
+  border: grey 3px solid;
+  background-position: 146px 45px;
 }
 
 .icon.icon-comments:hover {
-  background-position: 155px 66%;
+  background-position: 146px 0px;
 }
 
 .icon.icon-fasebok {
-  background-position: 155px 0;
+  border: grey 3px solid;
+  background-position: 194px 45px;
 }
 
 .icon.icon-fasebok:hover {
-  background-position: 155px 66%;
+  background-position: 194px 0;
 }
