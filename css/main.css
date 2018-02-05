@@ -275,14 +275,20 @@ img {
   display: inline-block;
   height: 45px;
   width: 50px;
-  border: 1px solid antiquewhite;
+  border: 1px solid white;
   border-radius: 15%;
   background: url("../images/social.jpg");
+  text-align: center;
+}
+
+.icon:hover {
+  box-shadow: 0 0 5px 2px red;
 }
 
 .icon.icon-car {
   border: grey 3px solid;
   background-position: 0 45px;
+  margin-left: 35%;
 }
 
 .icon.icon-car:hover {
