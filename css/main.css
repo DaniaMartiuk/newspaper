@@ -33,6 +33,17 @@ body {
   margin: 15px 0;
 }
 
+.red {
+  border: none;
+  /* Убираем границу для браузера Firefox */
+  color: red;
+  /* Цвет линии для остальных браузеров */
+  background-color: red;
+  /* Цвет линии для браузера Firefox и Opera */
+  height: 2px;
+  /* Толщина линии */
+}
+
 .topic {
   font-family: OstrichSans;
   font-weight: 500;
@@ -43,10 +54,6 @@ body {
   color: red;
   background-color: red;
   height: 2px;
-}
-
-.red {
-  color: red;
 }
 
 .hr {
@@ -64,12 +71,15 @@ body {
   background: black;
   border-radius: 15px;
   height: 20%;
+  margin-left: 50px;
+  margin-right: 70px;
+  height: 94px;
 }
 
 #div1 {
   color: white;
   /* Цвет фона */
-  width: 215px;
+  width: 240px;
   /* Ширина */
   margin: 0 10px 10px 0;
   /* Отступы */
@@ -151,6 +161,7 @@ img {
 }
 
 #div5 {
+  border-right: 1px solid red;
   color: antiquewhite;
   text-align: center;
   color: white;
@@ -166,19 +177,9 @@ img {
   display: inline-block;
   /* Строчно-блочный элемент */
   margin: 0 auto;
-  margin-right: 100px;
   vertical-align: top;
-  padding-left: 10px;
+  padding-left: 50px;
   padding-right: 1px;
-}
-
-.red {
-  margin: 0 auto;
-  margin-right: 100px;
-  vertical-align: top;
-  border-right: 1px solid red;
-  padding-right: 35px;
-  padding-left: 35px;
 }
 
 #div6 {
@@ -186,7 +187,7 @@ img {
   text-align: center;
   color: white;
   /* Цвет фона */
-  width: 300px;
+  width: 370px;
   /* Ширина */
   margin: 0 10px 10px 0;
   /* Отступы */
@@ -196,10 +197,11 @@ img {
   /* Выравнивание по центру */
   display: inline-block;
   /* Строчно-блочный элемент */
-  margin: 1%;
-  padding-left: 0px;
+  margin: 0 auto;
+  vertical-align: top;
+  padding-left: 50px;
+  padding-right: 10px;
   border-right: 1px solid red;
-  padding-right: 35px;
 }
 
 #div7 {
@@ -207,7 +209,7 @@ img {
   text-align: center;
   color: white;
   /* Цвет фона */
-  width: 270px;
+  width: 370px;
   /* Ширина */
   margin: 0 10px 10px 0;
   /* Отступы */
@@ -217,8 +219,10 @@ img {
   /* Выравнивание по центру */
   display: inline-block;
   /* Строчно-блочный элемент */
+  margin: 0 auto;
   vertical-align: top;
-  padding-left: 10%;
+  padding-left: 50px;
+  padding-right: 10px;
 }
 
   {
@@ -232,7 +236,7 @@ img {
 }
 
 .img2 {
-  width: 250px;
+  width: 350px;
   height: 200px;
 }
 
@@ -272,6 +276,7 @@ img {
 .silk {
   color: grey;
   text-decoration: none;
+  width: 350px;
 }
 
 #text_foter {
@@ -284,7 +289,7 @@ img {
   font-size: 50px;
   color: red;
   position: absolute;
-  top: 345%;
+  top: 300%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: Chunkfive;
@@ -295,6 +300,8 @@ img {
   border: none;
   padding-right: none;
   padding-left: none;
+  width: 100%;
+  padding-bottom: none;
 }
 
 .icon {
@@ -305,6 +312,8 @@ img {
   border-radius: 15%;
   background: url("../images/social.jpg");
   text-align: center;
+  margin: 5px;
+  border: 1px solid grey
 }
 
 .icon:hover {
@@ -312,8 +321,7 @@ img {
 }
 
 .icon.icon-car {
-  border: grey 3px solid;
-  background-position: 0 45px;
+  background-position: 0 47px;
   margin-left: 35%;
 }
 
@@ -322,8 +330,7 @@ img {
 }
 
 .icon.icon-check {
-  border: grey 3px solid;
-  background-position: 340px 45px;
+  background-position: 340px 47px;
 }
 
 .icon.icon-check:hover {
@@ -331,8 +338,7 @@ img {
 }
 
 .icon.icon-cart {
-  border: grey 3px solid;
-  background-position: 290px 45px;
+  background-position: 290px 47px;
 }
 
 .icon.icon-cart:hover {
@@ -340,8 +346,7 @@ img {
 }
 
 .icon.icon-comments {
-  border: grey 3px solid;
-  background-position: 146px 45px;
+  background-position: 146px 47px;
 }
 
 .icon.icon-comments:hover {
@@ -349,8 +354,7 @@ img {
 }
 
 .icon.icon-fasebok {
-  border: grey 3px solid;
-  background-position: 194px 45px;
+  background-position: 194px 47px;
 }
 
 .icon.icon-fasebok:hover {
