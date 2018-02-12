@@ -18,7 +18,8 @@
 body {
   background-image: url(../images/bg.jpg);
   margin: 0 0 0;
-  margin-bottom: 0;
+  padding-bottom: none;
+  margin-bottom: none;
 }
 
 #main_topic {
@@ -175,7 +176,7 @@ img {
   text-align: center;
   color: white;
   /* Цвет фона */
-  width: 370px;
+  width: 400px;
   /* Ширина */
   margin: 0 10px 10px 0;
   /* Отступы */
@@ -189,6 +190,7 @@ img {
   vertical-align: top;
   padding-left: 50px;
   padding-right: 1px;
+  text-align: center;
 }
 
 #div6 {
@@ -196,7 +198,7 @@ img {
   text-align: center;
   color: white;
   /* Цвет фона */
-  width: 370px;
+  width: 390px;
   /* Ширина */
   margin: 0 10px 10px 0;
   /* Отступы */
@@ -208,8 +210,8 @@ img {
   /* Строчно-блочный элемент */
   margin: 0 auto;
   vertical-align: top;
-  padding-left: 50px;
-  padding-right: 10px;
+  padding-left: 1px;
+  padding-right: 1px;
   border-right: 1px solid red;
 }
 
@@ -218,7 +220,7 @@ img {
   text-align: center;
   color: white;
   /* Цвет фона */
-  width: 370px;
+  width: 400px;
   /* Ширина */
   margin: 0 10px 10px 0;
   /* Отступы */
@@ -230,8 +232,8 @@ img {
   /* Строчно-блочный элемент */
   margin: 0 auto;
   vertical-align: top;
-  padding-left: 50px;
-  padding-right: 10px;
+  padding-left: 1px;
+  padding-right: 1px;
 }
 
   {
@@ -270,6 +272,7 @@ img {
 #sportfm {
   text-align: center;
   font-size: 30px;
+  margin-left: 300px;
 }
 
 #sportfm2 {
@@ -286,19 +289,23 @@ img {
   color: grey;
   text-decoration: none;
   width: 350px;
+  text-align: left;
+  margin-left: 10px;
 }
 
 #text_foter {
   position: relative;
   text-align: center;
   border: none;
+  padding-bottom: none;
+  margin-bottom: none;
 }
 
 #text_foter2 {
   font-size: 50px;
   color: red;
   position: absolute;
-  top: 306%;
+  top: 305%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: Chunkfive;
@@ -313,6 +320,7 @@ img {
   width: 100%;
   padding-bottom: none;
   background-clip: border-box;
+  margin-bottom: 0;
 }
 
 .icon {
