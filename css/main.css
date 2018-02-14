@@ -57,7 +57,7 @@ body {
 .topic {
   font-family: Chunkfive;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .text_for_hr {
@@ -307,7 +307,7 @@ img {
   font-size: 50px;
   color: red;
   position: absolute;
-  top: 305%;
+  top: 297%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: Chunkfive;
@@ -337,7 +337,7 @@ img {
   background: url("../images/social.jpg");
   text-align: center;
   margin: 5px;
-  border: 1px solid grey
+  border: 1px solid grey;
 }
 
 .icon:hover {
